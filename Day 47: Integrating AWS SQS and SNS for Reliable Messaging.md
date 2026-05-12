@@ -12,13 +12,13 @@ Once the stack is deployed, to test the same you can publish messages to the SNS
 
 ## Task 1: Create the CloudFormation template
 
-1. **Create S3 Bucket using CLI from azure-client host:**
+1. **Create S3 Bucket using CLI from aws-client host:**
 
    ```sh
    aws s3 mb s3://kklabsuser-352734
    ```
 
-2. **Package code in azure-client host::**
+2. **Package code in aws-client host::**
 
    ```sh
    zip function.zip index.py
